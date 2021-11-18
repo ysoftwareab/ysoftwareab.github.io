@@ -1,0 +1,57 @@
+$primary: #663399;
+$bootstrap-icons-font-src: url("./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?a97b3594ad416896e15824f6787370e0") format("woff2"),
+                           url("./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?a97b3594ad416896e15824f6787370e0") format("woff") !default;
+$fa-font-path: "./node_modules/@fortawesome/fontawesome-free/webfonts" !default;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+// @import "node_modules/mdb-ui-kit/css/mdb.min.css";
+
+.an-blockquote-marks {
+  padding: 0 1em;
+  display: inline-block;
+  position: relative;
+}
+
+.an-blockquote-marks:before {
+  content: open-quote;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.an-languages i {
+  width: 1.5em;
+  text-align: center;
+}
+
+// https://getbootstrap.com/docs/5.1/components/scrollspy/
+body {
+  position: relative;
+}
+
+#why-us-carousel {
+  .carousel-item {
+    height: 20em;
+  }
+  .carousel-caption {
+    position: static;
+    bottom: inherit;
+    top: 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #why-us-carousel {
+    .carousel-indicators button {
+      height: auto;
+      width: auto;
+      color: $white;
+      text-indent: inherit;
+      padding: 2px 6px 3px 6px;
+    }
+  }
+}

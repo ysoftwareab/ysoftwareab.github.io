@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="logo-white.png">
     <link rel="stylesheet" href="index.css">
     <title>Y Software</title>
   </head>
@@ -15,14 +15,17 @@
 
 <header class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary border-bottom border-white">
   <nav class="container flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-    <a class="navbar-brand" href="#top" aria-label="Top">Y Software</a>
+    <a class="navbar-brand" href="#top" aria-label="Top">
+      <img class="d-none d-lg-none" src="logo-primary.png" style="height: 2em">
+      <img class="d-inline d-lg-inline" src="logo-white-on-transparent-full.png" style="height: 2em">
+    </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbar-menu">
-      <ul class="navbar-nav flex-row flex-wrap">
+      <ul class="an-navbar-menu navbar-nav flex-row flex-wrap">
         <li class="nav-item col-6 col-lg-auto">
           <a class="nav-link" href="#top">Get In Touch</a>
         </li>
@@ -36,7 +39,7 @@
 
       <hr class="d-lg-none text-white-50">
 
-      <ul class="navbar-nav flex-row flex-wrap ms-auto">
+      <ul class="an-navbar-socialmedia navbar-nav flex-row flex-wrap justify-content-lg-end ms-lg-auto">
         <li class="nav-item col-6 col-lg-auto">
           <a class="nav-link" href="https://github.com/ysoftwareab"><i class="bi-github"></i><span class="d-lg-none ps-2">GitHub</span></a>
         </li>
@@ -63,7 +66,19 @@
 <main class="bg-primary text-white py-5">
   <section class="container">
     <div class="row">
-      <div class="col-12 offset-0 col-lg-10 offset-lg-1 col-xxl-6 offset-xxl-1">
+      <div class="column">
+        <div class="text-editor-wrap">
+          <div class="title-bar">
+            <span class="title">y-software — zsh — 80x<span class="terminal-height">10</span>
+          </span></div>
+          <div class="text-body">
+            $ <span id="typed">Try us out!</span><span class="typed-cursor">|</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1 col-xl-7 offset-xl-0">
         <!-- <h1 class="fw-light">Y Software</h1> -->
         <p class="lead d-block d-md-none">
           We ask "why?"
@@ -93,7 +108,7 @@
         </p>
       </div>
 
-      <div class="d-none col-10 offset-1 d-xxl-block col-xxl-4 offset-xxl-1 border rounded">
+      <div class="d-none col-10 offset-1 d-xl-block col-xl-4 border rounded">
         image
       </div>
     </div>
@@ -428,6 +443,7 @@
 
     <script src="node_modules/lodash/lodash.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/typed.js/lib/typed.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

@@ -32,6 +32,23 @@ body {
   position: relative;
 }
 
+.navbar-brand img {
+  height: 2em;
+}
+
+@include media-breakpoint-up(lg) {
+  .an-navbar-menu {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .navbar-brand,
+  .an-navbar-socialmedia {
+    width: 250px;
+  }
+}
+
 #why-us-carousel {
   .carousel-item {
     height: 20em;

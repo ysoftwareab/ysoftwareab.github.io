@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="index.css">
     <title>Y Software</title>
   </head>
@@ -10,9 +11,11 @@
 
     <div id="top"></div>
 
-    <header class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary border-bottom border-white">
+    <!-- BEGIN esh.header.html -->
+
+<header class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary border-bottom border-white">
   <nav class="container flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-    <a class="navbar-brand offset-0 offset-lg-1" href="#top" aria-label="Top">Y Software</a>
+    <a class="navbar-brand" href="#top" aria-label="Top">Y Software</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,443 +54,380 @@
   </nav>
 </header>
 
-    <div id="get-in-touch"></div>
+<!-- END esh.header.html -->
 
-    <main class="bg-primary text-white py-5">
-      <section class="container">
-        <div class="row">
-          <div class="col-12 offset-0 col-lg-10 offset-lg-1 col-xxl-6 offset-xxl-1">
-            <!-- <h1 class="fw-light">Y Software</h1> -->
-            <p class="lead d-block d-md-none">
-              We ask "why?"
-              because software is just a means to an end to us,
-              not a goal in itself.
+    <!-- BEGIN esh.get-in-touch.html -->
+
+<div id="get-in-touch"></div>
+
+<main class="bg-primary text-white py-5">
+  <section class="container">
+    <div class="row">
+      <div class="col-12 offset-0 col-lg-10 offset-lg-1 col-xxl-6 offset-xxl-1">
+        <!-- <h1 class="fw-light">Y Software</h1> -->
+        <p class="lead d-block d-md-none">
+          We ask "why?"
+          because software is just a means to an end to us,
+          not a goal in itself.
+        </p>
+        <p class="lead d-none d-md-block">
+          We ask "why?"<br>
+          because software is just a means to an end to us,<br>
+          not a goal in itself.
+        </p>
+        <p>
+          We are a product-led software consulting company with a strong background in bootstrapping greenfield products and development environments, often in the public cloud but not limited to it.
+        </p>
+        <p>
+          We believe tech products and services should focus on the customer and market value, not on the tech stack. We use time-tested and simple best practices so that your team can have a stronger and more agile product management.
+        </p>
+        <p class="lead text-center">
+          ex
+          <a href="https://klarna.com" class="text-white ps-1 ps-md-5"><i class="bi-credit-card-fill"></i> Klarna</a>
+          <a href="https://cisco.com" class="text-white ps-1 ps-md-5"><i class="bi-hdd-network-fill"></i> Cisco</a>
+          <a href="https://tobii.com" class="text-white ps-1 ps-md-5"><i class="bi-eye-fill"></i> Tobii</a>
+        </p>
+        <p class="text-center">
+          <a href="mailto:mejla@ysoftware.se" class="btn btn-lg btn-light my-2"><i class="bi-envelope-fill"></i> mejla@ysoftware.se</a>
+          <a href="#" class="btn btn-lg btn-primary btn-outline-light my-2"><i class="bi-calendar3"></i> Book a meeting</a>
+        </p>
+      </div>
+
+      <div class="d-none col-10 offset-1 d-xxl-block col-xxl-4 offset-xxl-1 border rounded">
+        image
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- END esh.get-in-touch.html -->
+
+    <!-- BEGIN esh.services.html -->
+
+<div class="mb-3" id="services">&nbsp;</div>
+
+<main>
+  <section class="container py-5">
+    <div class="row">
+      <div class="col offset-0 offset-lg-1">
+        <h1 class="text-center text-md-start text-primary">Services</h1>
+      </div>
+    </div>
+    <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">GitOps</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Infrastructure as Code.</li>
+              <li>Merge Requests.</li>
+              <li>CI/CD.</li>
+              <li>Secrets Management.</li>
+              <li>Uniform patterns.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Infrastructure as Code</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Bring your own.</li>
+              <li>AWS CloudFormation.</li>
+              <li>Azure Resource Templates.</li>
+              <li>Google Deployment Manager.</li>
+              <li>HashiCorp Terraform.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">CI/CD</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Deterministic.</li>
+              <li>Reliable, Reproduceable, Reusable, Fast.</li>
+              <li>AppVeyor, Circle CI, Cirrus CI, Codeship, Github Actions, Gitlab CI, Jenkins, Semaphore, Sourcehut, TeamCity, Travis CI.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Cross-platform</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Apple Darwin.</li>
+              <li>Docker.</li>
+              <li>Linux distributions.</li>
+              <li>Microsoft Windows (via WSL).</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">HTTP/REST API</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Design.</li>
+              <li>Documentation.</li>
+              <li>Security.</li>
+              <li>Integration.</li>
+              <li>Implementation.</li>
+              <li>Management.</li>
+              <li>Strategy.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Amazon Web Services</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Cloud-native architecture.</li>
+              <li>Account hierarchy.</li>
+              <li>Infrastructure as Code.</li>
+              <li>Identity and Access Management.</li>
+              <li>Lambda.</li>
+              <li>Monitoring.</li>
+              <li>Observability.</li>
+              <li></li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li></li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li></li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- END esh.services.html -->
+
+    <!-- BEGIN esh.why-us.html -->
+
+<div class="mb-3" id="why-us">&nbsp;</div>
+
+<main>
+  <section class="container py-5">
+    <div class="row">
+      <div class="col offset-0 offset-lg-1">
+        <h1 class="text-center text-md-start text-primary">Why Us?</h1>
+
+        <figure class="d-none d-md-block">
+          <blockquote class="blockquote an-blockquote-marks text-white fs-6">
+            <p class="font-monospace">
+              Simplicity is the final achievement.<br>
+              After one has played a vast quantity of notes and more notes,<br>
+              it is simplicity that emerges as the crowning reward of art.
             </p>
-            <p class="lead d-none d-md-block">
-              We ask "why?"<br>
-              because software is just a means to an end to us,<br>
-              not a goal in itself.
-            </p>
-            <p>
-              We are a product-led software consulting company with a strong background in bootstrapping greenfield products and development environments, often in the public cloud but not limited to it.
-            </p>
-            <p>
-              We believe tech products and services should focus on the customer and market value, not on the tech stack. We use time-tested and simple best practices so that your team can have a stronger and more agile product management.
-            </p>
-            <p class="lead text-center">
-              ex
-              <a href="https://klarna.com" class="text-white ps-1 ps-md-5"><i class="bi-credit-card-fill"></i> Klarna</a>
-              <a href="https://cisco.com" class="text-white ps-1 ps-md-5"><i class="bi-hdd-network-fill"></i> Cisco</a>
-              <a href="https://tobii.com" class="text-white ps-1 ps-md-5"><i class="bi-eye-fill"></i> Tobii</a>
-            </p>
-            <p class="text-center">
-              <a href="mailto:mejla@ysoftware.se" class="btn btn-lg btn-light my-2"><i class="bi-envelope-fill"></i> mejla@ysoftware.se</a>
-              <a href="#" class="btn btn-lg btn-primary btn-outline-light my-2"><i class="bi-calendar3"></i> Book a meeting</a>
-            </p>
-          </div>
+            <figcaption class="blockquote-footer text-white text-end">
+              Frédéric Chopin as quoted in <cite title="Source Title">If Not God, Then What? (2007) by Joshua Fost, p. 93</cite>
+            </figcaption>
+          </blockquote>
+        </figure>
 
-          <div class="d-none col-10 offset-1 d-xxl-block col-xxl-4 offset-xxl-1 border rounded">
-            image
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div class="mb-3" id="services">&nbsp;</div>
-
-    <main>
-      <section class="container py-5">
-        <div class="row">
-          <div class="col offset-0 offset-lg-1">
-            <h1 class="text-center text-md-start text-primary">Services</h1>
-          </div>
-        </div>
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">GitOps</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Infrastructure as Code.</li>
-                  <li>Merge Requests.</li>
-                  <li>CI/CD.</li>
-                  <li>Secrets Management.</li>
-                  <li>Uniform patterns.</li>
-                </ul>
+        <div class="card-group my-5 text-center">
+          <div class="card">
+            <h1 class="card-header d-none d-md-block"><i class="bi-hourglass-split"></i></h1>
+            <div class="card-body">
+              <h1 class="card-title">20+ years</h1>
+              <p class="card-text">
+                of professional experience<br>
+                in software engineering<br>
+                and tech leadership
               </p>
             </div>
           </div>
 
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Infrastructure as Code</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Bring your own.</li>
-                  <li>AWS CloudFormation.</li>
-                  <li>Azure Resource Templates.</li>
-                  <li>Google Deployment Manager.</li>
-                  <li>HashiCorp Terraform.</li>
-                </ul>
+          <div class="card">
+            <h1 class="card-header d-none d-md-block"><i class="bi-eyeglasses"></i></h1>
+            <div class="card-body">
+              <h1 class="card-title">tech</h1>
+              <p class="card-text an-languages">
+                <i class="fas fa-terminal"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-aws"></i>
+                <i class="fab fa-hacker-news"></i>
+                <br>
+                <i class="fab fa-apple"></i>
+                <i class="fab fa-linux"></i>
+                <i class="fab fa-docker"></i>
+                <i class="fab fa-windows opacity-25"></i>
+                <br>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-erlang"></i>
+                <i class="fab fa-python opacity-25"></i>
+                <br>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-vuejs"></i>
+                <i class="fab fa-react opacity-25"></i>
+                <br>
               </p>
             </div>
           </div>
 
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">CI/CD</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Deterministic.</li>
-                  <li>Reliable, Reproduceable, Reusable, Fast.</li>
-                  <li>AppVeyor, Circle CI, Cirrus CI, Codeship, Github Actions, Gitlab CI, Jenkins, Semaphore, Sourcehut, TeamCity, Travis CI.</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Cross-platform</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Apple Darwin.</li>
-                  <li>Docker.</li>
-                  <li>Linux distributions.</li>
-                  <li>Microsoft Windows (via WSL).</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">HTTP/REST API</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Design.</li>
-                  <li>Documentation.</li>
-                  <li>Security.</li>
-                  <li>Integration.</li>
-                  <li>Implementation.</li>
-                  <li>Management.</li>
-                  <li>Strategy.</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Amazon Web Services</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>Cloud-native architecture.</li>
-                  <li>Account hierarchy.</li>
-                  <li>Infrastructure as Code.</li>
-                  <li>Identity and Access Management.</li>
-                  <li>Lambda.</li>
-                  <li>Monitoring.</li>
-                  <li>Observability.</li>
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div class="mb-3" id="products">&nbsp;</div>
-
-    <main class="bg-primary text-white">
-      <section class="container py-5">
-        <div class="row">
-          <div class="col offset-0 offset-lg-1">
-            <h1 class="text-center text-md-start">Products</h1>
-          </div>
-        </div>
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Y Platform</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>foo</li>
-                </ul>
+          <div class="card">
+            <h1 class="card-header d-none d-md-block"><i class="bi-github"></i></h1>
+            <div class="card-body">
+              <h1 class="card-title">top 10</h1>
+              <p class="card-text">
+                <a href="https://commits.top/sweden.html">most active GitHub users in Sweden</a><br>
+                <br>
+                <strong>5000+</strong> GitHub stars<br>
+                <strong>100+</strong> OSS repositories
               </p>
             </div>
           </div>
         </div>
 
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">JeSSE</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li>foo</li>
-                </ul>
-              </p>
-            </div>
+        <div id="why-us-carousel" class="carousel carousel-dark slide bg-light my-5 rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ex Klarna">ex Klarna</button>
+            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="1" aria-label="ex Cisco">ex Cisco</button>
+            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="2" aria-label="ex Tobii">ex Tobii</button>
           </div>
-        </div>
 
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">KATT</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">HTTP Decision Diagram</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row offset-0 offset-lg-1 row-cols-2 row-cols-md-3 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Know Your HTTP Well</h4>
-              <p>
-                <ul class="list-unstyled">
-                  <li></li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div class="mb-3" id="why-us">&nbsp;</div>
-
-    <main>
-      <section class="container py-5">
-        <div class="row">
-          <div class="col offset-0 offset-lg-1">
-            <h1 class="text-center text-md-start text-primary">Why Us?</h1>
-
-            <figure class="d-none d-md-block">
-              <blockquote class="blockquote an-blockquote-marks text-white fs-6">
-                <p class="font-monospace">
-                  Simplicity is the final achievement.<br>
-                  After one has played a vast quantity of notes and more notes,<br>
-                  it is simplicity that emerges as the crowning reward of art.
-                </p>
-                <figcaption class="blockquote-footer text-white text-end">
-                  Frédéric Chopin as quoted in <cite title="Source Title">If Not God, Then What? (2007) by Joshua Fost, p. 93</cite>
-                </figcaption>
-              </blockquote>
-            </figure>
-
-            <div class="card-group my-5 text-center">
-              <div class="card">
-                <h1 class="card-header d-none d-md-block"><i class="bi-hourglass-split"></i></h1>
-                <div class="card-body">
-                  <h1 class="card-title">20+ years</h1>
-                  <p class="card-text">
-                    of professional experience<br>
-                    in software engineering<br>
-                    and tech leadership
-                  </p>
-                </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <h5>ex Klarna</h5>
+                <p>fintech</p>
               </div>
-
-              <div class="card">
-                <h1 class="card-header d-none d-md-block"><i class="bi-eyeglasses"></i></h1>
-                <div class="card-body">
-                  <h1 class="card-title">tech</h1>
-                  <p class="card-text an-languages">
-                    <i class="fas fa-terminal"></i>
-                    <i class="fab fa-git"></i>
-                    <i class="fab fa-aws"></i>
-                    <i class="fab fa-hacker-news"></i>
-                    <br>
-                    <i class="fab fa-apple"></i>
-                    <i class="fab fa-linux"></i>
-                    <i class="fab fa-docker"></i>
-                    <i class="fab fa-windows opacity-25"></i>
-                    <br>
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-node"></i>
-                    <i class="fab fa-erlang"></i>
-                    <i class="fab fa-python opacity-25"></i>
-                    <br>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3"></i>
-                    <i class="fab fa-vuejs"></i>
-                    <i class="fab fa-react opacity-25"></i>
-                    <br>
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <h1 class="card-header d-none d-md-block"><i class="bi-github"></i></h1>
-                <div class="card-body">
-                  <h1 class="card-title">top 10</h1>
-                  <p class="card-text">
-                    <a href="https://commits.top/sweden.html">most active GitHub users in Sweden</a><br>
-                    <br>
-                    <strong>5000+</strong> GitHub stars<br>
-                    <strong>100+</strong> OSS repositories
-                  </p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 offset-2 d-none d-lg-block">
+                    <ul class="list-unstyled">
+                      <li>Prototyping Klarna's Checkout with a Finite State Machine.</li>
+                      <li>Developing Klarna's Checkout frontend.</li>
+                      <li>Designing Klarna's Checkout REST API.</li>
+                      <li>Designing Klarna's Backoffice REST API.</li>
+                      <li>Modeling Klarna's business objects.</li>
+                    </ul>
+                  </div>
+                  <div class="col-8 offset-2 d-block d-lg-none">
+                    <ul class="list-unstyled">
+                      <li>Klarna Checkout.</li>
+                      <li>Prototyping.</li>
+                      <li>Finite State Machines.</li>
+                      <li>Frontend engineering.</li>
+                      <li>REST API design.</li>
+                      <li>Object modeling.</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div id="why-us-carousel" class="carousel carousel-dark slide bg-light my-5 rounded" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ex Klarna">ex Klarna</button>
-                <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="1" aria-label="ex Cisco">ex Cisco</button>
-                <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="2" aria-label="ex Tobii">ex Tobii</button>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h5>ex Cisco</h5>
+                <p>networking</p>
               </div>
-
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="carousel-caption">
-                    <h5>ex Klarna</h5>
-                    <p>fintech</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 offset-2 d-none d-lg-block">
+                    <ul class="list-unstyled">
+                      <li>Managed the Erlang JSON-RPC API for ConfD and NSO (Network Services Orchestrator).</li>
+                      <li>Migrated cross-platform projects and teams from SVN to Git (Atlassian Bitbucket).</li>
+                      <li>Migrated cross-platform projects and teams to Jenkins CI.</li>
+                    </ul>
                   </div>
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-8 offset-2 d-none d-lg-block">
-                        <ul class="list-unstyled">
-                          <li>Prototyping Klarna's Checkout with a Finish State Machine.</li>
-                          <li>Developing Klarna's Checkout frontend.</li>
-                          <li>Designing Klarna's Checkout REST API.</li>
-                          <li>Designing Klarna's Backoffice REST API.</li>
-                          <li>Modeling Klarna's business objects.</li>
-                        </ul>
-                      </div>
-                      <div class="col-8 offset-2 d-block d-lg-none">
-                        <ul class="list-unstyled">
-                          <li>Klarna Checkout.</li>
-                          <li>Prototyping.</li>
-                          <li>Finite State Machines.</li>
-                          <li>Frontend engineering.</li>
-                          <li>REST API design.</li>
-                          <li>Object modeling.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <h5>ex Cisco</h5>
-                    <p>networking</p>
-                  </div>
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-8 offset-2 d-none d-lg-block">
-                        <ul class="list-unstyled">
-                          <li>Managed the Erlang JSON-RPC API for ConfD and NSO (Network Services Orchestrator).</li>
-                          <li>Migrated cross-platform projects and teams from SVN to Git (Atlassian Bitbucket).</li>
-                          <li>Migrated cross-platform projects and teams to Jenkins CI.</li>
-                        </ul>
-                      </div>
-                      <div class="col-8 offset-2 d-block d-lg-none">
-                        <ul class="list-unstyled">
-                          <li>ConfD and NSO.</li>
-                          <li>Erlang.</li>
-                          <li>JSON-RPC API.</li>
-                          <li>Cross-platform.</li>
-                          <li>VCS migration.</li>
-                          <li>CI migration.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <h5>ex Tobii</h5>
-                    <p>adtech &amp; eyetracking</p>
-                  </div>
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-8 offset-2 d-none d-lg-block">
-                        <ul class="list-unstyled">
-                          <li>Growing Tobii Pro's Cloud Services team.</li>
-                          <li>Designed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
-                          <li>Developed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
-                          <li>Developed the Data Warehouse, Analytics, Backend, Frontend and Web Extension for Tobii Pro Pulse.</li>
-                        </ul>
-                      </div>
-                      <div class="col-8 offset-2 d-block d-lg-none">
-                        <ul class="list-unstyled">
-                          <li>Team/tech lead.</li>
-                          <li>Platform engineering.</li>
-                          <li>Cloud-native engineering.</li>
-                          <li>Cross-platform.</li>
-                          <li>Data Warehousing/GDPR.</li>
-                          <li>Full-stack engineering.</li>
-                        </ul>
-                      </div>
-                    </div>
+                  <div class="col-8 offset-2 d-block d-lg-none">
+                    <ul class="list-unstyled">
+                      <li>ConfD and NSO.</li>
+                      <li>Erlang.</li>
+                      <li>JSON-RPC API.</li>
+                      <li>Cross-platform.</li>
+                      <li>VCS migration.</li>
+                      <li>CI migration.</li>
+                    </ul>
                   </div>
                 </div>
               </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#why-us-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#why-us-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
 
-
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h5>ex Tobii</h5>
+                <p>adtech &amp; eyetracking</p>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 offset-2 d-none d-lg-block">
+                    <ul class="list-unstyled">
+                      <li>Growing Tobii Pro's Cloud Services team.</li>
+                      <li>Designed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
+                      <li>Developed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
+                      <li>Developed the Data Warehouse, Analytics, Backend, Frontend and Web Extension for Tobii Pro Pulse.</li>
+                    </ul>
+                  </div>
+                  <div class="col-8 offset-2 d-block d-lg-none">
+                    <ul class="list-unstyled">
+                      <li>Team/tech lead.</li>
+                      <li>Platform engineering.</li>
+                      <li>Cloud-native engineering.</li>
+                      <li>Cross-platform.</li>
+                      <li>Data Warehousing/GDPR.</li>
+                      <li>Full-stack engineering.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#why-us-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#why-us-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </section>
-    </main>
+
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- END esh.why-us.html -->
 
     <script src="node_modules/lodash/lodash.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <!-- <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script> -->
     <script src="index.js"></script>
   </body>
 </html>

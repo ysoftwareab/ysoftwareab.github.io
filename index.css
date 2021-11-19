@@ -23370,6 +23370,55 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+/* text editor styles */
+#typed-wrap {
+  max-width: 40ch;
+  box-shadow: 0 1rem 30rem rgba(255, 255, 255, 0.75);
+}
+
+#typed-title {
+  color: #000;
+  background-color: #dee2e6;
+  background-image: -webkit-linear-gradient(top, #f8f9fa, #adb5bd);
+  background-image: -moz-linear-gradient(top, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(top, #f8f9fa, #adb5bd);
+  position: relative;
+}
+#typed-title .buttons {
+  position: absolute;
+  top: 55%;
+  transform: translatey(-50%);
+  left: 0.5em;
+}
+#typed-title .buttons .button {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  border-style: solid;
+}
+#typed-title .buttons .button.red {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+#typed-title .buttons .button.yellow {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+#typed-title .buttons .button.green {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+#typed-body {
+  min-height: 6em;
+  color: #fff;
+  background-color: #212529;
+}
+
+#typed {
+  white-space: pre;
+}
+
 .an-blockquote-marks {
   padding: 0 1em;
   display: inline-block;

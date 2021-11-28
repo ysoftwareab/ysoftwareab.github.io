@@ -2,20 +2,20 @@
 
 <div class="mb-3" id="why-us">&nbsp;</div>
 
-<main>
+<main class="bg-primary">
   <section class="container py-5">
     <div class="row">
-      <div class="col offset-0 offset-lg-1">
-        <h1 class="text-center text-md-start text-primary">Why Us?</h1>
+      <div class="col">
+        <h1 class="text-center text-md-start text-white border-bottom">Why Us?</h1>
 
         <figure class="d-none d-md-block">
-          <blockquote class="blockquote an-blockquote-marks text-white fs-6">
+          <blockquote class="blockquote an-blockquote-marks fs-6 text-white">
             <p class="font-monospace">
               Simplicity is the final achievement.<br>
               After one has played a vast quantity of notes and more notes,<br>
               it is simplicity that emerges as the crowning reward of art.
             </p>
-            <figcaption class="blockquote-footer text-white text-end">
+            <figcaption class="blockquote-footer text-end text-white">
               Frédéric Chopin as quoted in <cite title="Source Title">If Not God, Then What? (2007) by Joshua Fost, p. 93</cite>
             </figcaption>
           </blockquote>
@@ -29,7 +29,7 @@
               <p class="card-text">
                 of professional experience<br>
                 in software engineering<br>
-                and tech leadership
+                and leadership in tech
               </p>
             </div>
           </div>
@@ -37,27 +37,31 @@
           <div class="card">
             <h1 class="card-header d-none d-md-block"><i class="bi-eyeglasses"></i></h1>
             <div class="card-body">
-              <h1 class="card-title">tech</h1>
+              <h1 class="card-title">polyglot tech</h1>
               <p class="card-text an-languages">
                 <i class="fas fa-terminal"></i>
                 <i class="fab fa-git"></i>
                 <i class="fab fa-aws"></i>
                 <i class="fab fa-hacker-news"></i>
+                <i class="fas fa-question-circle opacity-25"></i>
                 <br>
                 <i class="fab fa-apple"></i>
                 <i class="fab fa-linux"></i>
                 <i class="fab fa-docker"></i>
                 <i class="fab fa-windows opacity-25"></i>
+                <i class="fas fa-question-circle opacity-25"></i>
                 <br>
                 <i class="fab fa-js"></i>
                 <i class="fab fa-node"></i>
                 <i class="fab fa-erlang"></i>
                 <i class="fab fa-python opacity-25"></i>
+                <i class="fas fa-question-circle opacity-25"></i>
                 <br>
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3"></i>
                 <i class="fab fa-vuejs"></i>
                 <i class="fab fa-react opacity-25"></i>
+                <i class="fas fa-question-circle opacity-25"></i>
                 <br>
               </p>
             </div>
@@ -77,112 +81,9 @@
           </div>
         </div>
 
-        <div id="why-us-carousel" class="carousel carousel-dark slide bg-light my-5 rounded" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ex Klarna">ex Klarna</button>
-            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="1" aria-label="ex Cisco">ex Cisco</button>
-            <button type="button" data-bs-target="#why-us-carousel" data-bs-slide-to="2" aria-label="ex Tobii">ex Tobii</button>
-          </div>
+        <%+ esh.why-us.experience.html %>
 
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-caption">
-                <h5>ex Klarna</h5>
-                <p>fintech</p>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-8 offset-2 d-none d-lg-block">
-                    <ul class="list-unstyled">
-                      <li>Prototyping Klarna's Checkout with a Finite State Machine.</li>
-                      <li>Developing Klarna's Checkout frontend.</li>
-                      <li>Designing Klarna's Checkout REST API.</li>
-                      <li>Designing Klarna's Backoffice REST API.</li>
-                      <li>Modeling Klarna's business objects.</li>
-                    </ul>
-                  </div>
-                  <div class="col-8 offset-2 d-block d-lg-none">
-                    <ul class="list-unstyled">
-                      <li>Klarna Checkout.</li>
-                      <li>Prototyping.</li>
-                      <li>Finite State Machines.</li>
-                      <li>Frontend engineering.</li>
-                      <li>REST API design.</li>
-                      <li>Object modeling.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h5>ex Cisco</h5>
-                <p>networking</p>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-8 offset-2 d-none d-lg-block">
-                    <ul class="list-unstyled">
-                      <li>Managed the Erlang JSON-RPC API for ConfD and NSO (Network Services Orchestrator).</li>
-                      <li>Migrated cross-platform projects and teams from SVN to Git (Atlassian Bitbucket).</li>
-                      <li>Migrated cross-platform projects and teams to Jenkins CI.</li>
-                    </ul>
-                  </div>
-                  <div class="col-8 offset-2 d-block d-lg-none">
-                    <ul class="list-unstyled">
-                      <li>ConfD and NSO.</li>
-                      <li>Erlang.</li>
-                      <li>JSON-RPC API.</li>
-                      <li>Cross-platform.</li>
-                      <li>VCS migration.</li>
-                      <li>CI migration.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h5>ex Tobii</h5>
-                <p>adtech &amp; eyetracking</p>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-8 offset-2 d-none d-lg-block">
-                    <ul class="list-unstyled">
-                      <li>Growing Tobii Pro's Cloud Services team.</li>
-                      <li>Designed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
-                      <li>Developed an agnostic local development platform and build/test/deploy pipeline for 5 projects.</li>
-                      <li>Developed the Data Warehouse, Analytics, Backend, Frontend and Web Extension for Tobii Pro Pulse.</li>
-                    </ul>
-                  </div>
-                  <div class="col-8 offset-2 d-block d-lg-none">
-                    <ul class="list-unstyled">
-                      <li>Team/tech lead.</li>
-                      <li>Platform engineering.</li>
-                      <li>Cloud-native engineering.</li>
-                      <li>Cross-platform.</li>
-                      <li>Data Warehousing/GDPR.</li>
-                      <li>Full-stack engineering.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#why-us-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#why-us-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
+        <%+ esh.why-us.testimonials.html %>
 
       </div>
     </div>

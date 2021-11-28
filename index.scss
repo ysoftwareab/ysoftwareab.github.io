@@ -9,7 +9,7 @@ $fa-font-path: "./node_modules/@fortawesome/fontawesome-free/webfonts" !default;
 @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 
-@import "index-terminal.scss";
+@import "index-typed.scss";
 
 .an-blockquote-marks {
   padding: 0 1em;
@@ -51,25 +51,49 @@ body {
   }
 }
 
-#why-us-carousel {
+#why-us-experience-carousel{
   .carousel-item {
     height: 20em;
-  }
-  .carousel-caption {
-    position: static;
-    bottom: inherit;
-    top: 0;
+
+    .carousel-caption {
+      position: static;
+      bottom: inherit;
+      top: 0;
+    }
   }
 }
 
+#why-us-testimonials-carousel {
+  .carousel-item {
+    height: 35em;
+
+    .carousel-caption {
+      position: static;
+      bottom: inherit;
+      top: 0;
+    }
+
+    .container > .row > div {
+      font-size: 0.1em;
+      color: $gray-500;
+
+      strong {
+        font-size: 8em;
+        color: $white;
+        background-color: $primary;
+        border-radius: 0.25rem;
+        padding: 0.1em 0.5em;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+
 @include media-breakpoint-up(md) {
-  #why-us-carousel {
-    .carousel-indicators button {
-      height: auto;
-      width: auto;
-      color: $white;
-      text-indent: inherit;
-      padding: 2px 6px 3px 6px;
+  #why-us-testimonials-carousel {
+    .carousel-item {
+      height: 25em;
     }
   }
 }

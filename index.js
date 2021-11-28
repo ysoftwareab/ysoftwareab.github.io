@@ -9,12 +9,12 @@ let {
   Typed
 } = this;
 
-document.querySelector('#typed-wrap').classList.remove('d-none');
-
 let terminal = new Typed('#typed', {
   strings: [
     document.querySelector('#typed').textContent,
-    "whoami\nyour software engineer",
+    "whoami\nyour product engineer",
+    "whoami\nyour design engineer", // https://www.linkedin.com/pulse/gap-egor-kloos/
+    "whoami\nyour devops engineer",
     "whoami\nyour platform engineer",
     "whoami\nyour cloud-native engineer",
     "whoami\nyour principal engineer",
@@ -22,7 +22,7 @@ let terminal = new Typed('#typed', {
     "whoami\nyour engineering manager",
     "whoami\nyour go-to person",
     "whoami\nyour why? person",
-    "whoami\nandreineculau\n$",
+    "whoami\nandrei\n$",
   ],
   typeSpeed: 30,
   loop: false

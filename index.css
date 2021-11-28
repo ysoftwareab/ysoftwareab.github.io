@@ -23370,18 +23370,17 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-/* text editor styles */
 #typed-wrap {
   max-width: 40ch;
-  box-shadow: 0 1rem 30rem rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1rem 20rem rgba(255, 255, 255, 0.75);
+  border-radius: 0.5rem;
 }
 
 #typed-title {
+  font-size: 0.8em;
+  font-weight: bold;
   color: #000;
   background-color: #dee2e6;
-  background-image: -webkit-linear-gradient(top, #f8f9fa, #adb5bd);
-  background-image: -moz-linear-gradient(top, #f8f9fa, #adb5bd);
-  background-image: linear-gradient(top, #f8f9fa, #adb5bd);
   position: relative;
 }
 #typed-title .buttons {
@@ -23391,21 +23390,23 @@ readers do not read off random characters that represent icons */
   left: 0.5em;
 }
 #typed-title .buttons .button {
-  width: 1em;
-  height: 1em;
+  width: 0.9em;
+  height: 0.9em;
   display: inline-block;
+  border-width: 1px;
   border-style: solid;
+  box-shadow: 0 0 1px #000;
 }
 #typed-title .buttons .button.red {
-  background-color: #dc3545;
+  background-color: #e35d6a;
   border-color: #dc3545;
 }
 #typed-title .buttons .button.yellow {
-  background-color: #ffc107;
+  background-color: #ffcd39;
   border-color: #ffc107;
 }
 #typed-title .buttons .button.green {
-  background-color: #198754;
+  background-color: #479f76;
   border-color: #198754;
 }
 
@@ -23457,22 +23458,39 @@ body {
     width: 250px;
   }
 }
-#why-us-carousel .carousel-item {
+#why-us-experience-carousel .carousel-item {
   height: 20em;
 }
-#why-us-carousel .carousel-caption {
+#why-us-experience-carousel .carousel-item .carousel-caption {
   position: static;
   bottom: inherit;
   top: 0;
 }
 
+#why-us-testimonials-carousel .carousel-item {
+  height: 35em;
+}
+#why-us-testimonials-carousel .carousel-item .carousel-caption {
+  position: static;
+  bottom: inherit;
+  top: 0;
+}
+#why-us-testimonials-carousel .carousel-item .container > .row > div {
+  font-size: 0.1em;
+  color: #adb5bd;
+}
+#why-us-testimonials-carousel .carousel-item .container > .row > div strong {
+  font-size: 8em;
+  color: #fff;
+  background-color: #663399;
+  border-radius: 0.25rem;
+  padding: 0.1em 0.5em;
+  white-space: nowrap;
+}
+
 @media (min-width: 768px) {
-  #why-us-carousel .carousel-indicators button {
-    height: auto;
-    width: auto;
-    color: #fff;
-    text-indent: inherit;
-    padding: 2px 6px 3px 6px;
+  #why-us-testimonials-carousel .carousel-item {
+    height: 25em;
   }
 }
 

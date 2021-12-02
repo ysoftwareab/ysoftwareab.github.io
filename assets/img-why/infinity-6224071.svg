@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 5000 2068.416" enable-background="new 0 0 5000 2068.416" xml:space="preserve">
+<symbol  id="QM" viewBox="-30.078 -50 60.156 100">
+	<path d="M-5.304-15.136v0.906c0,3.664,0.409,7.157,1.229,10.479c0.818,3.32,2.068,6.479,3.687,9.508
+		c0.436,0.816,1.176,2.019,2.199,3.622c3.97,6.223,5.886,12.074,5.886,17.465c0,4.441-1.304,8.021-3.913,10.737
+		c-2.61,2.716-6.027,4.075-10.252,4.075c-2.804,0-5.424-0.776-7.86-2.329c-2.436-1.553-3.654-2.933-3.654-4.14
+		c0-0.517,0.799-1.075,2.394-1.681c0.906-0.344,1.592-0.631,2.069-0.841c2.318-1.018,4.043-2.307,5.142-3.946
+		c1.1-1.639,1.65-3.687,1.65-6.145c0-3.406-1.003-6.091-3.008-8.053s-4.754-2.943-8.247-2.943c-3.537,0-6.436,1.294-8.699,3.881
+		c-2.264,2.587-3.397,5.972-3.397,10.155c0,7.115,2.803,12.958,8.41,17.529C-16.063,47.714-8.884,50-0.129,50
+		c8.883,0,16.138-2.222,21.766-6.662c5.627-4.442,8.441-10.112,8.441-17.012c0-2.415-0.378-4.712-1.132-6.889
+		c-0.755-2.178-1.866-4.171-3.331-5.983c-1.941-2.243-5.092-4.76-9.444-7.568c-1.468-0.947-2.496-1.648-3.105-2.069
+		C8.795,0.866,5.789-1.908,4.172-4.689C2.555-7.47,1.66-10.954,1.488-15.136H-5.304z M-13.325-37.969
+		c0,3.321,1.174,6.145,3.525,8.474c2.35,2.329,5.185,3.493,8.506,3.493c3.364,0,6.187-1.154,8.474-3.461
+		c2.285-2.307,3.428-5.142,3.428-8.506c0-3.363-1.154-6.209-3.461-8.538C4.84-48.836,2.026-50-1.294-50
+		c-3.364,0-6.209,1.176-8.538,3.526C-12.16-44.125-13.325-41.29-13.325-37.969z"/>
+</symbol>
+<g>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.382 1.8419 1.8419 -0.382 112.0121 1219.3328)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.1018 1.8783 1.8783 -0.1018 94.0854 1082.0087)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.1879 1.8716 1.8716 0.1879 97.2465 943.528)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.4727 1.8207 1.8207 0.4727 121.6617 807.1874)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.7413 1.7288 1.7288 0.7413 166.5282 676.1384)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.9869 1.6014 1.6014 0.9869 230.3735 553.2014)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.2066 1.4431 1.4431 1.2066 311.377 440.8168)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3996 1.2568 1.2568 1.3996 407.5942 341.1419)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.5651 1.0434 1.0434 1.5651 517.0341 256.1978)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.7011 0.8029 0.8029 1.7011 637.6063 187.9809)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.803 0.5361 0.5361 1.803 766.9814 138.4731)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8648 0.2468 0.2468 1.8648 902.4321 109.5007)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8802 -0.0556 -0.0556 1.8802 1040.7603 102.4206)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8557 -0.3078 -0.3078 1.8557 1178.6519 115.9091)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.803 -0.5362 -0.5362 1.803 1313.636 147.2065)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.7339 -0.7295 -0.7295 1.7339 1444.0568 194.0843)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.6595 -0.8856 -0.8856 1.6595 1569.1292 253.8318)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.5881 -1.0081 -1.0081 1.5881 1688.7948 323.8204)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.5238 -1.1028 -1.1028 1.5238 1803.4767 401.8044)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.4688 -1.1752 -1.1752 1.4688 1913.7533 485.9155)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.4233 -1.2299 -1.2299 1.4233 2020.3177 574.6801)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3873 -1.2704 -1.2704 1.3873 2123.875 666.9301)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3602 -1.2993 -1.2993 1.3602 2225.095 761.7144)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3416 -1.3185 -1.3185 1.3416 2324.6265 858.2534)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3312 -1.329 -1.329 1.3312 2423.0979 955.8884)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3287 -1.3315 -1.3315 1.3287 2521.0977 1054.0084)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.334 -1.3262 -1.3262 1.334 2619.1831 1152.0105)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3472 -1.3128 -1.3128 1.3472 2717.948 1249.3242)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3686 -1.2905 -1.2905 1.3686 2817.9819 1345.3237)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3985 -1.258 -1.258 1.3985 2919.8931 1439.3044)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.4373 -1.2134 -1.2134 1.4373 3024.3298 1530.4531)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.4855 -1.1539 -1.1539 1.4855 3131.9712 1617.7849)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.543 -1.0758 -1.0758 1.543 3243.5095 1700.0737)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.609 -0.9744 -0.9744 1.609 3359.6055 1775.7794)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.6828 -0.8405 -0.8405 1.6828 3480.8367 1842.917)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.7571 -0.6716 -0.6716 1.7571 3607.6379 1898.8351)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8216 -0.469 -0.469 1.8216 3739.5737 1941.0739)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8668 -0.2311 -0.2311 1.8668 3875.6672 1967.0916)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8807 0.0383 0.0383 1.8807 4014.0054 1974.3669)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.8522 0.3282 0.3282 1.8522 4151.8413 1960.9401)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.7755 0.6213 0.6213 1.7755 4285.8374 1925.9076)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.6525 0.8987 0.8987 1.6525 4412.4429 1869.7384)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.4915 1.1462 1.1462 1.4915 4528.5166 1794.1561)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.3029 1.3568 1.3568 1.3029 4631.6455 1701.6709)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-1.0952 1.5294 1.5294 1.0952 4720.1279 1595.071)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.8733 1.6661 1.6661 0.8733 4792.7568 1477.087)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.6388 1.7693 1.7693 0.6388 4848.564 1350.2731)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.3915 1.8399 1.8399 0.3915 4886.6201 1217.0527)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(-0.1304 1.8765 1.8765 0.1304 4905.9395 1079.8629)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.1442 1.8755 1.8755 -0.1442 4905.5059 941.3293)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.4282 1.8317 1.8317 -0.4282 4884.4497 804.4156)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.7126 1.7409 1.7409 -0.7126 4842.3701 672.4499)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.9833 1.6036 1.6036 -0.9833 4779.7305 548.9137)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.2247 1.4278 1.4278 -1.2247 4698.123 436.9884)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4249 1.2281 1.2281 -1.4249 4600.1895 339.004)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.5797 1.0212 1.0212 -1.5797 4489.1494 256.0869)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.6936 0.8186 0.8186 -1.6936 4368.2739 188.2536)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.7905 0.5766 0.5766 -1.7905 4239.8022 136.5517)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.8583 0.2917 0.2917 -1.8583 4105.1279 104.3497)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.881 -0.0127 -0.0127 -1.881 3967.0354 94.0512)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.8565 -0.3029 -0.3029 -1.8565 3829.0247 105.8648)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.798 -0.5528 -0.5528 -1.798 3694.1799 137.6979)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.7236 -0.7534 -0.7534 -1.7236 3564.3403 186.1422)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.6474 -0.908 -0.908 -1.6474 3440.1096 247.6351)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.5771 -1.0252 -1.0252 -1.5771 3321.3044 319.096)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.516 -1.1136 -1.1136 -1.516 3207.3362 398.1006)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4648 -1.1801 -1.1801 -1.4648 3097.5266 482.7652)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4233 -1.2299 -1.2299 -1.4233 2991.1196 571.6989)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3907 -1.2666 -1.2666 -1.3907 2887.4534 663.7896)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3664 -1.2928 -1.2928 -1.3664 2785.8521 758.2101)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3498 -1.3101 -1.3101 -1.3498 2685.7568 854.2259)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3404 -1.3197 -1.3197 -1.3404 2586.627 951.2204)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3381 -1.3221 -1.3221 -1.3381 2487.9192 1048.6627)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3427 -1.3174 -1.3174 -1.3427 2389.1724 1145.9792)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3543 -1.3054 -1.3054 -1.3543 2289.8179 1242.6937)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3734 -1.2853 -1.2853 -1.3734 2189.3389 1338.2251)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4004 -1.2559 -1.2559 -1.4004 2087.1855 1431.9222)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4359 -1.2151 -1.2151 -1.4359 1982.7528 1523.0272)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.4808 -1.16 -1.16 -1.4808 1875.3674 1610.6163)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.5357 -1.0863 -1.0863 -1.5357 1764.2632 1693.5299)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.6005 -0.9883 -0.9883 -1.6005 1648.7552 1770.1508)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.674 -0.858 -0.858 -1.674 1528.1331 1838.4114)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.7514 -0.6863 -0.6863 -1.7514 1401.9077 1895.6014)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.8229 -0.4642 -0.4642 -1.8229 1270.1184 1938.3494)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.87 -0.2034 -0.2034 -1.87 1133.7987 1963.0616)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.8797 0.0703 0.0703 -1.8797 995.36 1968.0133)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.8489 0.3464 0.3464 -1.8489 857.6873 1952.64)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.7775 0.6157 0.6157 -1.7775 723.7938 1917.1145)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.6675 0.8706 0.8706 -1.6675 596.6022 1862.2333)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.5217 1.1059 1.1059 -1.5217 478.8514 1789.2559)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.3427 1.3174 1.3174 -1.3427 373.0867 1699.7867)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(1.1333 1.5013 1.5013 -1.1333 281.6526 1595.7164)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.8971 1.6533 1.6533 -0.8971 206.6671 1479.2347)" overflow="visible"/>
+	
+		<use xlink:href="#QM"  width="60.156" height="100" x="-30.078" y="-50" transform="matrix(0.6397 1.7689 1.7689 -0.6397 149.9153 1352.8608)" overflow="visible"/>
+</g>
+</svg>

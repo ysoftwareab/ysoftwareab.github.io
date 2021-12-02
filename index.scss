@@ -1,0 +1,110 @@
+$primary: #663399;
+$bootstrap-icons-font-src: url("./assets/node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?a97b3594ad416896e15824f6787370e0") format("woff2"),
+                           url("./assets/node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?a97b3594ad416896e15824f6787370e0") format("woff") !default;
+$fa-font-path: "./assets/node_modules/@fortawesome/fontawesome-free/webfonts" !default;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "index-typed.scss";
+
+.an-blockquote-marks {
+  padding: 0 1em;
+  display: inline-block;
+  position: relative;
+}
+
+.an-blockquote-marks:before {
+  content: open-quote;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.an-languages i {
+  width: 1.5em;
+  text-align: center;
+}
+
+// https://getbootstrap.com/docs/5.1/components/scrollspy/
+body {
+  position: relative;
+}
+
+.navbar-brand img {
+  height: 2em;
+}
+
+@include media-breakpoint-up(lg) {
+  .an-navbar-menu {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .navbar-brand,
+  .an-navbar-socialmedia {
+    width: 250px;
+  }
+}
+
+#why-us-experience-carousel{
+  .carousel-item {
+    height: 20em;
+
+    .carousel-caption {
+      position: static;
+      bottom: inherit;
+      top: 0;
+    }
+  }
+}
+
+#why-us-testimonials-carousel {
+  .carousel-item {
+    height: 35em;
+
+    .carousel-caption {
+      position: static;
+      bottom: inherit;
+      top: 0;
+    }
+
+    .container > .row > div {
+      font-size: 0.7em;
+      color: $gray-500;
+
+      strong {
+        color: $white;
+        background-color: $primary;
+        border-radius: 0.25rem;
+        padding: 0.1em 0.5em;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100) drop-shadow(0px 0px 5px rgba(0, 0, 0, 1));
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 0.9rem;
+  bottom: auto;
+  width: 1rem;
+}
+
+
+@include media-breakpoint-up(md) {
+  #why-us-testimonials-carousel {
+    .carousel-item {
+      height: 25em;
+    }
+  }
+}

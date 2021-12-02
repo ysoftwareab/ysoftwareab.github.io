@@ -23476,16 +23476,27 @@ body {
   top: 0;
 }
 #why-us-testimonials-carousel .carousel-item .container > .row > div {
-  font-size: 0.1em;
+  font-size: 0.7em;
   color: #adb5bd;
 }
 #why-us-testimonials-carousel .carousel-item .container > .row > div strong {
-  font-size: 8em;
   color: #fff;
   background-color: #663399;
   border-radius: 0.25rem;
   padding: 0.1em 0.5em;
   white-space: nowrap;
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100) drop-shadow(0px 0px 5px black);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 0.9rem;
+  bottom: auto;
+  width: 1rem;
 }
 
 @media (min-width: 768px) {

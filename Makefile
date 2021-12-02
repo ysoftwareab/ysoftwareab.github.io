@@ -1,6 +1,6 @@
 .PHONY: server
 server:
-	python -m SimpleHTTPServer
+	npx -y http-server -c-1
 
 .PHONY: sass
 sass:

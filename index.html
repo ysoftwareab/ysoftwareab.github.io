@@ -13,18 +13,18 @@
 
     <!-- BEGIN esh.header.html -->
 
-<header class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary border-bottom border-white">
+<header class="fixed-top navbar navbar-expand-lg navbar-dark bg-primary border-bottom border-white">
   <nav class="container flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-    <a class="navbar-brand" href="#top" aria-label="Top">
+    <a id="navbar-brand" class="navbar-brand" href="#top" aria-label="Top">
       <img class="d-inline d-lg-none" src="logo-primary.png" style="height: 2em">
       <img class="d-none d-lg-inline" src="logo-white-on-transparent-full.png" style="height: 2em">
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="navbar-menu-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbar-menu">
+    <div id="navbar-menu" class="collapse navbar-collapse">
       <ul class="an-navbar-menu navbar-nav flex-row flex-wrap">
         <li class="nav-item col-6 col-lg-auto">
           <a class="nav-link" href="#top">Get In Touch</a>
@@ -61,7 +61,7 @@
 
     <!-- BEGIN esh.get-in-touch.html -->
 
-<div id="get-in-touch"></div>
+<div id="get-in-touch" class="mb-3">&nbsp;</div>
 
 <main class="bg-primary text-white py-5">
   <section class="container">
@@ -85,31 +85,29 @@
     <div class="row">
       <div class="col-10 offset-1 col-xl-7 offset-xl-0">
         <!-- <h1 class="fw-light">Y Software</h1> -->
-        <p class="lead d-block d-md-none">
-          We ask "why?"
-          because software is just a means to an end to us,
-          not a goal in itself.
-        </p>
-        <p class="lead d-none d-md-block">
-          We ask "why?"<br>
-          because software is just a means to an end to us,<br>
+        <p class="lead">
+          We ask "why?"<span class="d-none d-md-block"></span>
+          because software is just a means to an end to us,<span class="d-none d-md-block"></span>
           not a goal in itself.
         </p>
         <p>
-          We are a product-led software consulting company with a strong background in bootstrapping greenfield products and development environments, often in the public cloud but not limited to it.
+          We are a product-led software consulting company with a strong background in bootstrapping greenfield products
+          and development environments, often in the public cloud but not limited to it.
         </p>
         <p>
-          We believe tech products and services should focus on the customer and market value, not on the tech stack. We use time-tested and simple best practices so that your team can have a stronger and more agile product management.
+          We believe tech products and services should focus on the customer and market value, not on the tech stack. We
+          use time-tested and simple best practices so that your team can have a stronger and more agile product
+          management.
         </p>
         <p class="lead text-center">
           ex
-          <a href="https://klarna.com" class="text-white ps-1 ps-md-5"><i class="bi-credit-card-fill"></i> Klarna</a>
+          <a href="https://klarna.com" class="text-white ps-1 ps-md-5"><i class="bi-credit-card-fill fs-6"></i> Klarna</a>
           <a href="https://cisco.com" class="text-white ps-1 ps-md-5"><i class="bi-hdd-network-fill"></i> Cisco</a>
           <a href="https://tobii.com" class="text-white ps-1 ps-md-5"><i class="bi-eye-fill"></i> Tobii</a>
         </p>
         <p class="text-center">
-          <a href="mailto:mejla@ysoftware.se" class="btn btn-lg btn-light btn-outline-primary border-light my-2"><i class="bi-envelope-fill"></i> mejla@ysoftware.se</a>
-          <a href="#" class="btn btn-lg btn-primary btn-outline-light my-2"><i class="bi-calendar3"></i> Book a meeting</a>
+          <a href="mailto:mejla@ysoftware.se" class="btn btn-lg btn-light btn-outline-primary border-light m-2"><i class="bi-envelope-fill"></i> mejla@ysoftware.se</a>
+          <a href="https://calendly.com/ysoftwareab/25min" class="btn btn-lg btn-light btn-outline-primary border-light m-2"><i class="bi-calendar3"></i> Book a meeting</a>
         </p>
       </div>
 
@@ -124,7 +122,7 @@
 
     <!-- BEGIN esh.services.html -->
 
-<div class="mb-3" id="services">&nbsp;</div>
+<div id="services" class="mb-3">&nbsp;</div>
 
 <main>
   <section class="container py-5">
@@ -134,58 +132,19 @@
       </div>
     </div>
     <div class="row row-cols-2 row-cols-md-3 g-4 py-5">
+
       <div class="col d-flex align-items-start">
         <div>
-          <h4 class="fw-bold mb-0">GitOps</h4>
+          <h4 class="fw-bold mb-0">Platform</h4>
           <p>
             <ul class="list-unstyled">
+              <li>CI/CD</li>
+              <li>GitOps / DevOps</li>
               <li>Infrastructure as Code.</li>
-              <li>Merge Requests.</li>
-              <li>CI/CD.</li>
+              <li>Uniform Patterns.</li>
               <li>Secrets Management.</li>
-              <li>Uniform patterns.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0">Infrastructure as Code</h4>
-          <p>
-            <ul class="list-unstyled">
-              <li>Bring your own.</li>
-              <li>AWS CloudFormation.</li>
-              <li>Azure Resource Templates.</li>
-              <li>Google Deployment Manager.</li>
-              <li>HashiCorp Terraform.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0">CI/CD</h4>
-          <p>
-            <ul class="list-unstyled">
-              <li>Deterministic.</li>
-              <li>Reliable, Reproduceable, Reusable, Fast.</li>
-              <li>AppVeyor, Circle CI, Cirrus CI, Codeship, Github Actions, Gitlab CI, Jenkins, Semaphore, Sourcehut, TeamCity, Travis CI.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0">Cross-platform</h4>
-          <p>
-            <ul class="list-unstyled">
-              <li>Apple Darwin.</li>
-              <li>Docker.</li>
-              <li>Linux distributions.</li>
-              <li>Microsoft Windows (via WSL).</li>
+              <li>Monitoring.</li>
+              <li>Observability.</li>
             </ul>
           </p>
         </div>
@@ -210,17 +169,65 @@
 
       <div class="col d-flex align-items-start">
         <div>
+          <h4 class="fw-bold mb-0">JavaScript &co</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Core.</li>
+              <li>TypeScript, Babel, Eslint, VueJS, ...</li>
+              <li>Serverless.</li>
+              <li>Servers, API, HTTP, REST, hypermedia, RPC, WebSockets, WebRTC, ...</li>
+              <li>Web Extensions, Native Messaging.</li>
+              <li>Desktop Apps via Electron.</li>
+              <li>Native Bindings.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">CI/CD</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Merge Requests Automation.</li>
+              <li>Deterministic Builds.</li>
+              <li>Sandboxed Deployments.</li>
+              <li>Artifacts Management.</li>
+              <li>Reliable, Reproduceable, Reusable, Fast.</li>
+              <li>AppVeyor, Circle CI, Cirrus CI, Codeship, Github Actions, Gitlab CI, Jenkins, Semaphore, Sourcehut,
+                TeamCity, Travis CI, ...</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">Cross-Platform</h4>
+          <p>
+            <ul class="list-unstyled">
+              <li>Apple Darwin.</li>
+              <li>Linux Distributions.</li>
+              <li>Microsoft Windows (via WSL).</li>
+              <li>Docker.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
           <h4 class="fw-bold mb-0">Amazon Web Services</h4>
           <p>
             <ul class="list-unstyled">
-              <li>Cloud-native architecture.</li>
-              <li>Account hierarchy.</li>
+              <li>Cloud-Native Architecture.</li>
+              <li>Account Hierarchy.</li>
               <li>Infrastructure as Code.</li>
               <li>Identity and Access Management.</li>
               <li>Lambda.</li>
+              <li>Event-Driven.</li>
               <li>Monitoring.</li>
               <li>Observability.</li>
-              <li></li>
             </ul>
           </p>
         </div>
@@ -228,10 +235,13 @@
 
       <div class="col d-flex align-items-start">
         <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
+          <h4 class="fw-bold mb-0">Infrastructure as Code</h4>
           <p>
             <ul class="list-unstyled">
-              <li></li>
+              <li>Bring Your Own Language.</li>
+              <li>AWS CloudFormation, AWS CDK.</li>
+              <li class="text-muted">HashiCorp Terraform.</li>
+              <li class="text-muted">NETCONF/YANG</li>
             </ul>
           </p>
         </div>
@@ -239,14 +249,20 @@
 
       <div class="col d-flex align-items-start">
         <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
+          <h4 class="fw-bold mb-0">Misc./Interim</h4>
           <p>
             <ul class="list-unstyled">
-              <li></li>
+              <li>Finite State Machines.</li>
+              <li>Grammars.</li>
+              <li>Erlang.</li>
+              <li>Product Management.</li>
+              <li>Team Management.</li>
+              <li class="text-muted">Project Management.</li>
             </ul>
           </p>
         </div>
       </div>
+
     </div>
   </section>
 </main>
@@ -255,7 +271,7 @@
 
     <!-- BEGIN esh.why-us.html -->
 
-<div class="mb-3" id="why-us">&nbsp;</div>
+<div id="why-us" class="mb-3">&nbsp;</div>
 
 <main class="bg-primary">
   <section class="container py-5">
@@ -271,7 +287,8 @@
               it is simplicity that emerges as the crowning reward of art.
             </p>
             <figcaption class="blockquote-footer text-end text-white">
-              Frédéric Chopin as quoted in <cite title="Source Title">If Not God, Then What? (2007) by Joshua Fost, p. 93</cite>
+              Frédéric Chopin as quoted in
+              <cite title="Source Title">If Not God, Then What? (2007) by Joshua Fost, p. 93</cite>
             </figcaption>
           </blockquote>
         </figure>
@@ -294,28 +311,29 @@
             <div class="card-body">
               <h1 class="card-title">polyglot tech</h1>
               <p class="card-text an-languages">
-                <i class="fas fa-terminal"></i>
-                <i class="fab fa-git"></i>
-                <i class="fab fa-aws"></i>
-                <i class="fab fa-hacker-news"></i>
-                <i class="fas fa-question-circle opacity-25"></i>
-                <br>
                 <i class="fab fa-apple"></i>
                 <i class="fab fa-linux"></i>
                 <i class="fab fa-docker"></i>
                 <i class="fab fa-windows opacity-25"></i>
+                <!-- <i class="fas fa-question-circle opacity-25"></i> -->
+                <br>
+                <i class="fas fa-terminal"></i>
+                <i class="fab fa-git"></i>
+                <i class="fas fa-cloud"></i>
+                <!-- <i class="fab fa-hacker-news"></i> -->
                 <i class="fas fa-question-circle opacity-25"></i>
                 <br>
-                <i class="fab fa-js"></i>
+                <i class="fab fa-linux"></i>
+                <!-- <i class="fab fa-js"></i> -->
                 <i class="fab fa-node"></i>
                 <i class="fab fa-erlang"></i>
-                <i class="fab fa-python opacity-25"></i>
+                <!-- <i class="fab fa-python opacity-25"></i> -->
                 <i class="fas fa-question-circle opacity-25"></i>
                 <br>
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3"></i>
                 <i class="fab fa-vuejs"></i>
-                <i class="fab fa-react opacity-25"></i>
+                <!-- <i class="fab fa-react opacity-25"></i> -->
                 <i class="fas fa-question-circle opacity-25"></i>
                 <br>
               </p>
@@ -348,7 +366,7 @@
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="10000">
       <div class="carousel-caption">
         <h5>ex Klarna</h5>
         <p class="mb-0">fintech</p>
@@ -378,7 +396,7 @@
       </div>
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="10000">
       <div class="carousel-caption">
         <h5>ex Cisco</h5>
         <p class="mb-0">networking</p>
@@ -406,7 +424,7 @@
       </div>
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="10000">
       <div class="carousel-caption">
         <h5>ex Tobii</h5>
         <p class="mb-0">adtech &amp; eyetracking</p>
@@ -448,11 +466,12 @@
 
 <!-- END esh.why-us.experience.html -->
 
-        <!-- BEGIN esh.why-us.testimonials.html -->
+          <!-- BEGIN esh.why-us.testimonials.html -->
 
 <h1 class="text-center text-md-start text-white border-bottom">Testimonials</h1>
 
-<div id="why-us-testimonials-carousel" class="carousel carousel-dark slide bg-light my-5 rounded" data-bs-ride="carousel">
+<div id="why-us-testimonials-carousel" class="carousel carousel-dark slide bg-light my-5 rounded"
+  data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#why-us-testimonials-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Erik Alsmyr">Erik Alsmyr</button>
     <button type="button" data-bs-target="#why-us-testimonials-carousel" data-bs-slide-to="1" aria-label="Ian Savchenko">Ian Savchenko</button>
@@ -460,61 +479,99 @@
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="10000">
       <div class="carousel-caption">
         <h6>Erik Alsmyr / CTO at Lexplore</h6>
         <p class="mb-0 d-none d-md-block">Erik managed Andrei directly</p>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-10 offset-1">
-            <p>I had the pleasure of working along side Andrei at Tobii Pro for almost 4 years. He joined my nascent department as we were getting started on building products on AWS and very quickly proved himself to be <strong>very fast learner</strong>, <strong>excellent solver of problems</strong> but also <strong>a super good team member</strong> from the perspective of improving others' skills. Many were new to web development in general and cloud infrastrucure in particular but together we grew our craftmanship as a team alot thanks to Andrei's <strong>ability to bring others along</strong> on the learning curve.</p>
+          <div class="col-12">
+            <p>I had the pleasure of working along side Andrei at Tobii Pro for almost 4 years. He joined my nascent
+              department as we were getting started on building products on AWS and very quickly proved himself to be
+              <strong>very fast learner</strong>, <strong>excellent solver of problems</strong> but also
+              <strong>a super good team member</strong> from the perspective of improving others' skills. Many were new
+              to web development in general and cloud infrastrucure in particular but together we grew our craftmanship
+              as a team alot thanks to Andrei's <strong>ability to bring others along</strong> on the learning curve.
+            </p>
 
-            <p>Over the years Andrei <strong>earned everyone's utmost respect</strong> as we grew into a 3 teams strong organization basing our development on the same platform but for quite different products. Andrei was <strong>instrumental</strong> is establishing our use of AWS, our Devops culture and our solutions to CI and CD based on Travis CI and Cloud Formation.</p>
+            <p>Over the years Andrei <strong>earned everyone's utmost respect</strong> as we grew into a 3 teams strong
+              organization basing our development on the same platform but for quite different products. Andrei was
+              <strong>instrumental</strong> is establishing our use of AWS, our Devops culture and our solutions to CI
+              and CD based on Travis CI and Cloud Formation.
+            </p>
 
-            <p>As we part ways now in the winter of 2020 I wish Andrei all the best and I am certain he will be <strong>wildly successful</strong> wherever he puts his attention. I truly hope our paths cross again in the future work wise. I am sure they will over a glass of fine, japanese whiskey at some nice place.</p>
+            <p>As we part ways now in the winter of 2020 I wish Andrei all the best and I am certain he will be
+              <strong>wildly successful</strong> wherever he puts his attention. I truly hope our paths cross again in
+              the future work wise. I am sure they will over a glass of fine, japanese whiskey at some nice place.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="10000">
       <div class="carousel-caption">
         <h6>Ian Savchenko / Developer at PayPal</h6>
         <p class="mb-0 d-none d-md-block">Ian worked with Andrei on the same team</p>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-10 offset-1">
-            <p>Without any hesitations, Andrei is <strong>the best Software Engineer</strong> I've ever got a chance to work with.</p>
+          <div class="col-12">
+            <p>Without any hesitations, Andrei is <strong>the best Software Engineer</strong> I've ever got a chance to
+              work with.</p>
 
-            <p>He has a <strong>vast experience</strong> in everything related to Computer Science and he knows his way around almost everything when it comes to Web and Cloud development. <strong>Thinking often several steps ahead</strong>, he identifies problems and comes up with solutions that are robust and simple at the same time.</p>
+            <p>He has a <strong>vast experience</strong> in everything related to Computer Science and he knows his way
+              around almost everything when it comes to Web and Cloud development.
+              <strong>Thinking often several steps ahead</strong>, he identifies problems and comes up with solutions
+              that are robust and simple at the same time.
+            </p>
 
-            <p>Andrei is a <strong>fast learner</strong> and worker and you can be surprised by his work pace. But you would be even more surprised by the fact that every decision Andrei takes about system design, code styling or testing have <strong>a reason behind</strong> them and are usually carefully thought through, even though they may be looking hasty. Question him about them and you won't be disappointed by his reasoned answers.</p>
+            <p>Andrei is a <strong>fast learner</strong> and worker and you can be surprised by his work pace. But you
+              would be even more surprised by the fact that every decision Andrei takes about system design, code
+              styling or testing have <strong>a reason behind</strong> them and are usually carefully thought through,
+              even though they may be looking hasty. Question him about them and you won't be disappointed by his
+              reasoned answers.</p>
 
-            <p>Andrei is <strong>always on the edge</strong> of the best practices and techniques and his proficiency in development tooling allows him to automate many routines in his personal and team's workflow.</p>
+            <p>Andrei is <strong>always on the edge</strong> of the best practices and techniques and his proficiency in
+              development tooling allows him to automate many routines in his personal and team's workflow.</p>
 
-            <p>The last but not the least, Andrei is <strong>a caring person</strong> and <strong>a great teammate</strong> who takes care about coworkers, their productivity and well-being.</p>
+            <p>The last but not the least, Andrei is <strong>a caring person</strong> and
+              <strong>a great teammate</strong> who takes care about coworkers, their productivity and well-being.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="10000">
       <div class="carousel-caption">
         <h6>Isak Bakken / Software Engineer at Spotify</h6>
         <p class="mb-0 d-none d-md-block">Isak worked with Andrei on the same team</p>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-10 offset-1">
-            <p>Andrei is <strong>a highly productive developer</strong>, with skills in many different fields and programming languages. He was shown an unusually large ability and drive to <strong>quickly learn</strong> new programming languages and technologies. He has <strong>a very analytic and focused mindset</strong> and is <strong>skilled</strong> at reasoning about technical problems or solutions. Having Andrei in our team was <strong>very valuable</strong>, especially when new solutions to difficult problems were discussed, prototyped and implemented.</p>
+          <div class="col-12">
+            <p>Andrei is <strong>a highly productive developer</strong>, with skills in many different fields and
+              programming languages. He was shown an unusually large ability and drive to <strong>quickly learn</strong>
+              new programming languages and technologies. He has <strong>a very analytic and focused mindset</strong>
+              and is <strong>skilled</strong> at reasoning about technical problems or solutions. Having Andrei in our
+              team was <strong>very valuable</strong>, especially when new solutions to difficult problems were
+              discussed, prototyped and implemented.</p>
 
-            <p>He has an impressive ability to <strong>quickly comprehend a complex problem</strong> after just a short chat about it. Often I just mentioned a few keywords and he gladly helped me solve difficult problems with even less communication effort than it would have been to write a ticket about the bug or problem.</p>
+            <p>He has an impressive ability to <strong>quickly comprehend a complex problem</strong> after just a short
+              chat about it. Often I just mentioned a few keywords and he gladly helped me solve difficult problems with
+              even less communication effort than it would have been to write a ticket about the bug or problem.</p>
 
-            <p>Most of the time he has been a few months before the rest of us when it comes to <strong>foreseeing technical problems</strong> with a design, and sometimes a few years (like when it comes to designing future-proof API:s etc.)</p>
+            <p>Most of the time he has been a few months before the rest of us when it comes to
+              <strong>foreseeing technical problems</strong> with a design, and sometimes a few years (like when it
+              comes to designing future-proof API:s etc.)
+            </p>
 
-            <p>He can at times seem a bit blunt, but that's just because he speaks his mind and doesn't pretend to like your bad solution when it's rightfully stupid. This has been <strong>very valuable to our team</strong> while developing Klarna Checkout, and I think any company that is into software development would find Andrei a valuable team member.</p>
+            <!-- <p>He can at times seem a bit blunt, but that's just because he speaks his mind and doesn't pretend to like
+              your bad solution when it's rightfully stupid. This has been <strong>very valuable to our team</strong>
+              while developing Klarna Checkout, and I think any company that is into software development would find
+              Andrei a valuable team member.</p> -->
           </div>
         </div>
       </div>
@@ -549,11 +606,57 @@
   </div>
   <br>
   <div class="text-center text-muted mt-2">
-    Copyright &copy; 2021 Y Software AB | Orgnr 559342-8674 | Godkänd för F-skatt | <a href="https://www.allabolag.se/5593428674/y-software-ab">allabolag.se</a>
+    Copyright &copy; 2021 Y Software AB<br>
+    Orgnr 559342-8674 | Godkänd för F-skatt
   </div>
 </footer>
 
+<img src="assets/img-why/why-2028047.svg" width="100%" class="my-5 opacity-25">
+
 <!-- END esh.footer.html -->
+
+    <!-- BEGIN esh.y-trivia.html -->
+
+<div id="y-trivia" class="mb-3">&nbsp;</div>
+
+<main>
+  <section class="container py-5">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center text-md-start text-primary border-bottom">Y Trivia</h1>
+      </div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3 g-4 py-5">
+
+      <div class="col d-flex align-items-start">
+        <p>Y is pronounced "why" in English.</p>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <p>Y is the Greek I.</p>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <p>Y is the penultimate letter in Latin alphabet, initially used to spell foreign words.</p>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <p>Y stands for yotta, the largest decimal unit prefix in the metric system, denoting a factor of 10^24.</p>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <p>Y in American Sign Language is similar to the shaka sign, also known as "hang loose".</p>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <p>Y purple is purposefully <a href="https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/">rebeccapurple</a>.</p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- END esh.y-trivia.html -->
 
     <script src="node_modules/lodash/lodash.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
@@ -561,4 +664,3 @@
     <script src="index.js"></script>
   </body>
 </html>
-

@@ -51,6 +51,14 @@ body {
   }
 }
 
+h1 img {
+  max-width: 90%;
+  height: 5rem;
+}
+h1.text-white img {
+  filter: invert(1) drop-shadow(0px 0px 1px rgba(255, 255, 255, 1));
+}
+
 #why-us-experience-carousel{
   .carousel-item {
     height: 20em;
@@ -100,6 +108,15 @@ body {
   width: 1rem;
 }
 
+#buzzwords-list {
+  strong {
+    color: $white;
+    background-color: $primary;
+    border-radius: 0.25rem;
+    padding: 0.1em 0.5em;
+    white-space: nowrap;
+  }
+}
 
 @include media-breakpoint-up(md) {
   #why-us-testimonials-carousel {

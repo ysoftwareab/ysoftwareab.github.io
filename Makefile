@@ -7,13 +7,26 @@ NODE_MODULES_ASSETS += \
 
 .PHONY: build
 build:
+	$(MAKE) sass assets esh
+
+
+.PHONY: sass
+sass:
 	sass index.scss:index.css
+
+
+.PHONY: assets
+assets:
 	cp -Rp --parents $(NODE_MODULES_ASSETS) assets/
-	./esh -s bash -o index.html esh.index.html
+
+
+.PHONY: esh
+esh:
+	./esh -s bash -o index.html esh.0.index.html
 
 
 .PHONY: watch
-watcg:
+watch:
 	while sleep 5; do make; done
 
 

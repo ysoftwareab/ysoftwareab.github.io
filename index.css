@@ -23458,6 +23458,15 @@ body {
     width: 250px;
   }
 }
+h1 img, .h1 img {
+  max-width: 90%;
+  height: 5rem;
+}
+
+h1.text-white img, .text-white.h1 img {
+  filter: invert(1) drop-shadow(0px 0px 1px white);
+}
+
 #why-us-experience-carousel .carousel-item {
   height: 20em;
 }
@@ -23497,6 +23506,14 @@ body {
   top: 0.9rem;
   bottom: auto;
   width: 1rem;
+}
+
+#buzzwords-list strong {
+  color: #fff;
+  background-color: #663399;
+  border-radius: 0.25rem;
+  padding: 0.1em 0.5em;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) {

@@ -27,12 +27,12 @@ let terminal = new Typed('#typed', {
     document.querySelector('#typed').textContent,
     'whoami\nyour product-minded engineer', // https://blog.pragmaticengineer.com/the-product-minded-engineer/
     'whoami\nyour forward deployed engineer',
-    # 'whoami\nyour design engineer', // https://www.linkedin.com/pulse/gap-egor-kloos/
+    // 'whoami\nyour design engineer', // https://www.linkedin.com/pulse/gap-egor-kloos/
     'whoami\nyour devops engineer',
     'whoami\nyour platform engineer',
     'whoami\nyour cloud-native engineer',
     'whoami\nyour principal engineer',
-    # 'whoami\nyour solution architect',
+    // 'whoami\nyour solution architect',
     'whoami\nyour engineering manager',
     'whoami\nyour go-to person',
     'whoami\nyour why? person',
